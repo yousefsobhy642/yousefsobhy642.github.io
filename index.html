@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Data Analyst Portfolio</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="config.js"></script>
+
+<header class="hero">
+  <div class="wrap hero-grid" style="grid-template-columns:1fr">
+    <div>
+      <h1 id="name">Your Name</h1>
+      <p class="role">Data Analyst · Power BI, Tableau, SQL, Python</p>
+      <p class="lead">I turn raw data into clear dashboards and insights that help people make decisions. Fourth-year Computer Science student specializing in Machine Learning, graduating in 2027.</p>
+      <div class="bars" aria-hidden="true"><i style="--h:30%"></i><i style="--h:48%"></i><i style="--h:40%"></i><i style="--h:66%"></i><i style="--h:58%"></i><i style="--h:84%"></i><i style="--h:100%"></i></div>
+      <div class="links" id="heroLinks"></div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>About me</h2>
+    <p style="max-width:68ch;margin:0 0 22px">I’m drawn to data analysis because I like finding the patterns inside data and explaining what they mean. My background in programming, statistics and machine learning gives me a systematic way to approach problems, from cleaning messy data to presenting the story it tells.</p>
+    <div class="facts">
+      <div>Faculty of Computer Science<span>Menoufia National University</span></div>
+      <div>Excellent overall grade<span>Machine Learning track</span></div>
+      <div>Graduating 2027<span>Open to junior and freelance work</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div><h3>Power BI</h3><p>Power Query cleaning and transformation, DAX measures, KPIs, interactive dashboards.</p></div>
+      <div><h3>Tableau</h3><p>Interactive dashboards, calculated fields, parameters, filters, varied chart types.</p></div>
+      <div><h3>SQL and MySQL</h3><p>Queries with JOIN and GROUP BY, analysis queries, database normalization.</p></div>
+      <div><h3>Python</h3><p>Pandas and Matplotlib for cleaning, processing, analysis and visualization.</p></div>
+      <div><h3>Excel</h3><p>Organizing, cleaning and analyzing data.</p></div>
+      <div><h3>Statistics</h3><p>Descriptive statistics, regression, hypothesis testing, time series, EDA.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Projects</h2>
+    <article class="proj" data-p="global_country">
+      <div class="shot"><span>Project image goes here</span></div>
+      <div class="body">
+        <h3>Global Country Analysis: Tableau dashboards</h3>
+        <div class="tags"><span>Tableau</span><span>Parameters</span><span>Calculated fields</span><span>Tableau Story</span></div>
+        <p>Interactive dashboards analyzing demographic, health (HIV) and economic indicators across 200+ countries, with parameters, calculated fields, dashboard actions and a Tableau Story.</p>
+        <div class="links"></div>
+      </div>
+    </article>
+    <article class="proj" data-p="superstore">
+      <div class="shot"><span>Project image goes here</span></div>
+      <div class="body">
+        <h3>Superstore: SQL database and Tableau dashboard</h3>
+        <div class="tags"><span>SQL</span><span>5NF design</span><span>Tableau</span><span>KPIs</span></div>
+        <p>A relational database (5NF) designed in SQL for sales analysis, connected to an interactive dashboard showing profit and net sales KPIs and the impact of categories such as Furniture and Technology. Built on the public Superstore sample dataset.</p>
+        <div class="links"></div>
+      </div>
+    </article>
+    <article class="proj" data-p="research">
+      <div class="shot"><span>Project image goes here</span></div>
+      <div class="body">
+        <h3>Research Dashboard: Tableau</h3>
+        <div class="tags"><span>Tableau</span><span>Heatmap</span><span>Running sum</span></div>
+        <p>Interactive dashboard analyzing research data: citations by author, grants by institution (2014–2016), citation trends with a running sum, and country-level comparisons.</p>
+        <div class="links"></div>
+      </div>
+    </article>
+    <article class="proj" data-p="hr_powerbi">
+      <div class="shot"><span>Project image goes here</span></div>
+      <div class="body">
+        <h3>HR Analytics: Power BI</h3>
+        <div class="tags"><span>Power BI</span><span>Power Query</span><span>DAX</span></div>
+        <p>Analysis of employee attrition and the factors linked to people leaving, such as job satisfaction, salary, tenure and department, with KPIs, DAX measures and an interactive dashboard.</p>
+        <div class="links"></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Hire me or get in touch</h2>
+    <p>Available for entry-level data analyst roles and freelance dashboard and analysis projects.</p>
+    <div class="links" id="contactLinks"></div>
+  </div>
+</section>
+
+<footer><div class="wrap">© <span id="yr"></span> <span id="fname"></span></div></footer>
+
+<script src="main.js"></script>
+</body>
+</html>
